@@ -2,8 +2,6 @@ import ssl
 
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split, KFold, cross_val_score, GridSearchCV
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 from sklearn.naive_bayes import GaussianNB
